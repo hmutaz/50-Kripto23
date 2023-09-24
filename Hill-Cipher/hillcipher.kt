@@ -12,7 +12,6 @@ fun main() {
     } else {
         //Inisiasi kunci dekripsi
         var dKey = inverseMatrix(key)
-        printMatrix(dKey)
     
         //group adalah jumlah bagian enkripsi yang dilakukan dan groupArray adalah objek arraynya
         var input: Int;
